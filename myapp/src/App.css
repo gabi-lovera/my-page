@@ -18,10 +18,10 @@ body{
 
 .navbar{
   width: 100%;
-  height: 100%;
+  height: 100px;
   position: fixed;
   top: 0;
-  background: #1f2235;
+  background: #E76100;
   z-index: 1;
 
 }
@@ -30,6 +30,7 @@ body{
   display: flex;
   height: 100px;
   align-items: center;
+  justify-content: space-between;
 }
 .navbar__left-logo img{
 width: 110px;
