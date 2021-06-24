@@ -1,9 +1,11 @@
 import './App.css';
-import Header from "./components/Banner"
+import Banner from "./components/Banner"
+import Nav from "./components/Nav"
 function App() {
   return (
     <div>
-      <Header />
+      <Banner />
+      <Nav />
     </div>
   );
 }
