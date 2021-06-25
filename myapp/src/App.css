@@ -14,6 +14,7 @@ body{
   background: url("images/image.png");
   background-repeat: no-repeat;
   background-size: cover;
+  overflow: hidden;
 }
 
 .navbar{
@@ -100,3 +101,21 @@ width: 50%;
     line-height: 40px;
     margin-bottom: 50px;
   }
+
+  .btn {
+    outline: none;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+  }
+  .btn-outline{
+    border: 2px solid #ff4a57;
+    border-radius: 50px;
+    padding: 13px 40px;
+  }
+  
+  .banner__img{
+    padding: 0 30px;
+    margin-top: 110px;  
+  }
+  
