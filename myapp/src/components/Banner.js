@@ -1,5 +1,5 @@
 import React from 'react'
-import {FaFacebookF,FaPinterest,FaTwitch,FaLinkedin,FaTwitter,FaInstagram} from "react-icons/fa"
+import {FaFacebookF,FaGithub,FaLinkedin,FaTwitter} from "react-icons/fa"
 export const Banner = () => {
     return (
       <header className="header">
@@ -7,23 +7,26 @@ export const Banner = () => {
           <div className="row">
             <div className="col-6">
               <div className="header__content">
-                <ul className="header__ul">
-                  <li>
-                    <FaFacebookF />
-                  </li>
-                  <li>
-                    <FaTwitter />
-                  </li>
-                  <li>
-                    <FaPinterest />
-                  </li>
-                  <li>
-                    <FaInstagram />
-                  </li>
-                  <li>
-                    <FaLinkedin />
-                  </li>
-                </ul>
+                <div className="header__section">
+                  <ul className="header__ul">
+                    <li>
+                      <FaFacebookF />
+                    </li>
+                    <li>
+                      <FaTwitter />
+                    </li>
+                    <li>
+                      <FaGithub />
+                    </li>
+                    <li>
+                      <FaLinkedin />
+                    </li>
+                  </ul>
+                  <h1>I am Gabriel Lovera</h1>
+                  <p>
+                      im Gabriel, student at UTN San Francisco and tech entusiactic
+                  </p>
+                </div>
               </div>
             </div>
             <div className="col-6"></div>
