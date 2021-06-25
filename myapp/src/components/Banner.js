@@ -1,7 +1,8 @@
 import React from 'react'
 import {FaFacebookF,FaGithub,FaLinkedin,FaTwitter} from "react-icons/fa"
 export const Banner = () => {
-    return (
+    
+  return (
       <header className="header">
         <div className="container">
           <div className="row">
