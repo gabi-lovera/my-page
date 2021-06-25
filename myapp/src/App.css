@@ -32,9 +32,7 @@ body{
   align-items: center;
   justify-content: space-between;
 }
-.navbar__left-logo img{
-width: 110px;
-}
+
 .navbar__right{
   display: flex;
   list-style-type: none;
@@ -46,7 +44,10 @@ width: 110px;
   font-size: 18px;
   padding: 0 15px;
 }
-
+.navport{
+  font-family: 'Nunito', sans-serif;
+  font-size: 40px;
+}
 /* Helpers */
 .container{
   width: 1200px;
@@ -72,6 +73,7 @@ width: 50%;
   .header__ul{
     list-style-type: none;
     display: flex;
+    margin-bottom: 20px;
   }
   .header__ul li{
     width: 50px;
@@ -82,4 +84,19 @@ width: 50%;
     align-items: center;
     justify-content: center;
     margin: 0 10px;
+  }
+
+  .header__ul li:first-child{
+    margin-left: 0;
+  }
+  .header__section h1{
+    font-size: 57px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  .header__section p{
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 40px;
+    margin-bottom: 50px;
   }
