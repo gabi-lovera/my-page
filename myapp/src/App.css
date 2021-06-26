@@ -54,6 +54,7 @@ body{
   width: 1200px;
   margin: 0 auto;
 }
+
 .bgMain{
   background: #E76100;
 }
@@ -126,9 +127,10 @@ width: 50%;
     margin-top: 110px;  
   }
   
-  /* About and Skills*/
+  /* About*/
   .about{
     background: #E76100;
+    height: 110vh;
     padding: 20px 0;
     color: #fff;
   }
@@ -146,6 +148,7 @@ width: 50%;
   .mainHeader{
     font-size: 32px;
     margin-bottom: 20px;
+    color: #fff;
   }
   .mainContent{
     font-size: 16px;
@@ -175,7 +178,20 @@ width: 50%;
   .commonIcons{
     color: #152533;
   }
-
+  /* Skills*/
+  .h1-Skill{
+    color: #fff;
+    padding-top: 20px;
+  }
+  
+  .headerskill{
+    width: 100%;
+    height: 110vh;
+    background: url("images/image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
   /* Contact */
   .contact{
     background: #E76100;
@@ -287,6 +303,8 @@ width: 50%;
 .progress-bar{
     display: flex;
     align-items: center;
+    width: 450px;
+    
 }
 .progress{
   position: relative;
