@@ -305,8 +305,11 @@ width: 50%;
     color: yellow;
   }
 
-/*Progress*/
+  .ref:hover{
+    color: #152533;
+  }
 
+/*Progress*/
 .progress-bar{
     display: flex;
     align-items: center;
