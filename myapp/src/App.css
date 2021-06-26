@@ -275,7 +275,35 @@ width: 50%;
     color: #ff4a57;
   }
 
+  /*Hyperlink*/
   a{
     text-decoration: none;
     color: #fff;
   }
+
+
+/*Progress*/
+
+.progress-bar{
+    display: flex;
+    align-items: center;
+}
+.progress{
+  position: relative;
+  width: 100%;
+  height: .4rem;
+  background-color: #007bff;
+}
+.progress-text{
+  padding-right: 1.1rem;
+}
+.progress-var{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 100%;
+  background-color: #2ecc71;
+}
+
+
+

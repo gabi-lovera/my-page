@@ -7,7 +7,7 @@ export const Nav = () => {
           <div className="navbar__container">
             <ul className="navbar__left">
               <div className="navbar__left-logo">
-              <h1 class="navport">MyPortfolio</h1>
+                <h1 class="navport">MyPortfolio</h1>
               </div>
             </ul>
             <ul className="navbar__right">

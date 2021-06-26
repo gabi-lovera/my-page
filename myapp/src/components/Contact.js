@@ -5,17 +5,14 @@ export const Contact = () => {
         {}
     )
     return (
-      
       <div className="contact">
-         
         <div className="container">
           <div className="main__header">
             <div className="common">
-           
               <h3 className="heading">CONTACT</h3>
               <h1 className="mainHeader">My contact</h1>
               <p className="mainContent">
-              Send me an email if you want to contact me
+                Send me an email if you want to contact me
               </p>
               <div className="commonBorder"></div>
             </div>
@@ -37,15 +34,27 @@ export const Contact = () => {
                     <form className="form">
                       <div className="form-field">
                         <label htmlFor="name">Enter your name*</label>
-                        <input type="text" id="name" class="field" placeholder="Name" />
+                        <input
+                          type="text"
+                          id="name"
+                          class="field"
+                          placeholder="Name"
+                        />
                       </div>
                       <div className="form-field">
                         <label htmlFor="email">Enter your email*</label>
-                        <input type="email" id="email" class="field" placeholder="Email" />
+                        <input
+                          type="email"
+                          id="email"
+                          class="field"
+                          placeholder="Email"
+                        />
                       </div>
                       <div className="form-field">
                         <label htmlFor="text-area">Enter your Message*</label>
-                        <textarea placeholder="Insert your Message here :)" class="field"
+                        <textarea
+                          placeholder="Insert your Message here :)"
+                          class="field"
                           name="textarea"
                           id="textarea"
                           cols="30"
@@ -61,7 +70,6 @@ export const Contact = () => {
               </div>
             </div>
           </div>
-
         </div>
       </div>
     );

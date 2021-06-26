@@ -1,5 +1,6 @@
 import React from 'react'
 import {FaFacebookF,FaGithub,FaLinkedin,FaTwitter} from "react-icons/fa"
+import ProgressBar from './ProgressBar'
 
 export const Skills = () => {
     return (
@@ -38,6 +39,10 @@ export const Skills = () => {
                     <br />
                     that I was learning
                   </p>
+                  <div className="skills">
+                    <ProgressBar title={"HTML5"} width={"30%"} text={"30%"} />
+                    <ProgressBar title={"HTML5"} width={"50%"} text={"50%"} />
+                  </div>
                 </div>
               </div>
             </div>
