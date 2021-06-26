@@ -1,6 +1,6 @@
 function ProgressBar({ title, width, text }) {
   return (
-    <div>
+    <div className="title-over">
       <h6>{title}</h6>
       <div className="progress-bar">
         <p className="progress-text">{text}</p>

@@ -20,7 +20,7 @@ export const Skills = () => {
                 <ProgressBar title={"HTML5"} width={"75%"} text={"75%"} />
                 <ProgressBar title={"CSS"} width={"60%"} text={"60%"} />
                 <ProgressBar title={"JAVASCRIPT"} width={"50%"} text={"50%"} />
-                <ProgressBar title={"REACT"} width={"40%"} text={"40%"} />
+                <ProgressBar title={"REACT JS"} width={"40%"} text={"40%"} />
               </div>
             </div>
           </div>
@@ -28,7 +28,7 @@ export const Skills = () => {
             <div className="header__content">
               <div className="header__section">
                 <div className="banner__img">
-                  <img src="images/sad.jpg" alt="dev" />
+                  <img className="prog__img" src="images/programming.png" alt="dev" />
                 </div>
 
                 <ProgressBar title={"JAVA"} width={"70%"} text={"70%"} />

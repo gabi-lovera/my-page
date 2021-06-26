@@ -19,7 +19,7 @@ export const Contact = () => {
         <div className="row">
           <div className="col-6">
             <div className="banner__img">
-              <img src="images/send.png" alt="dev" />
+              <img src="images/conection.png" alt="dev" />
             </div>
           </div>
           <div className="col-6">
