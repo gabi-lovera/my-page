@@ -126,8 +126,8 @@ width: 50%;
     margin-top: 110px;  
   }
   
-  /* Skills */
-  .skills{
+  /* About and Skills*/
+  .about{
     background: #E76100;
     padding: 20px 0;
     color: #fff;
@@ -157,22 +157,24 @@ width: 50%;
     width: 120px;
     margin: 30px auto;
   }
-  .skills__box{
+  .about__box{
     padding: 20px;
     background: #ff4a57;
     color: #fff;
     margin: 20px;
   }
-  .skills__box-header{
+  .about__box-header{
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 15px;
   }
-  .skilss__box-p{
+  .about__box-p{
     font-size: 16px;
     color: #dfdfdf;
   }
-
+  .commonIcons{
+    color: #152533;
+  }
 
   /* Contact */
   .contact{
@@ -234,6 +236,41 @@ width: 50%;
     }
   }
 
+  /* Footer */
+  .footer{
+    background: #000;
+  }
 
+  .footer p{
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+  }
 
+  h2{
+    position: relative;
+    padding: 0 0 10px;
+    margin-bottom: 10px;
+  }
+  
+  h2:after{
+    content: '';
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      transform: translateX(-50%);
+      height: 4px;
+      width: 50px;
+      border-radius: 2px;
+      background-color: #2ecc71;
+  }
 
+  .fooContent{
+    font-size: 22px;
+    text-align: center;
+  }
+  .copy{
+    padding-top: 15px;
+    color: #ff4a57;
+  }

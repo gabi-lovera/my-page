@@ -1,18 +1,20 @@
 import './App.css';
 import Banner from "./components/Banner"
 import Nav from "./components/Nav"
+import About from "./components/About" 
 import Skills from "./components/Skills"
 import Contact from "./components/Contact"
-import About from "./components/About" 
+import Footer from "./components/Footer" 
 
 function App() {
   return (
     <div>
       <Banner />
       <Nav />
+      <About />
       <Skills />
-      <Banner />
       <Contact />
+      <Footer />
     </div>
   );
 }
