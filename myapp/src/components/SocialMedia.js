@@ -7,21 +7,23 @@ export const SocialMedia = () => {
         <li>
           <FaFacebookF />
         </li>
-        <li>
-          <a href="https:www.google.com" target="_blank">
+        <a href="https:www.google.com" target="_blank"><li>
+          
             <FaTwitter />
-          </a>
-        </li>
-        <li>
-          <a href="https:www.github.com/Gabsl09" target="_blank">
+         
+        </li></a>
+        <a href="https:www.github.com/Gabsl09" target="_blank"><li>
+          
             <FaGithub />
-          </a>
-        </li>
-        <li>
-          <a href="https:www.linkedin.com/in/gabriellovera" target="_blank">
+          
+        </li></a>
+        
+        
+        <a href="https:www.linkedin.com/in/gabriellovera" target="_blank"><li>
+          
             <FaLinkedin />
-          </a>
-        </li>
+          
+        </li></a>
       </ul>
     );
 }

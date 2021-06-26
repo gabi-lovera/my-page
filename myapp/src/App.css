@@ -9,6 +9,7 @@ body{
 }
 
 .header{
+  margin-top: 20px;
   width: 100%;
   height: 100vh;
   background: url("images/image.png");
@@ -296,7 +297,13 @@ width: 50%;
     text-decoration: none;
     color: #fff;
   }
-
+  a:hover {
+    color: #ff4a57;
+  }
+  
+  a:active {
+    color: yellow;
+  }
 
 /*Progress*/
 

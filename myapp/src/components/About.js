@@ -46,6 +46,7 @@ export const About = () => {
         <div className="container">
           <div className="main__header">
             <div className="common">
+            <a name="About"></a>
               <h3 className="heading">ABOUT</h3>
               <h1 className="mainHeader">More Information</h1>
               <p className="mainContent">
@@ -53,7 +54,7 @@ export const About = () => {
               </p>
               <div className="commonBorder"></div>
             </div>
-
+            
             <div className="row bgMain">
               {state.map((Info) => (
                 <div className="col-4 bgMain">

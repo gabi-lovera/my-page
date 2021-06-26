@@ -5,6 +5,7 @@ import ProgressBar from './ProgressBar'
 export const Skills = () => {
     return (
       <div className="headerskill">
+        
         <div className="container">
           <div className="row">
             <div className="col-6">

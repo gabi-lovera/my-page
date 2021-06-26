@@ -30,7 +30,6 @@ export const Banner = () => {
             </div>
           </div>
         </div>
-        <a name="About"></a>
       </header>
     );
 
