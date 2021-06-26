@@ -38,7 +38,7 @@ export const About = () => {
           id: 3,
           icon: <AiTwotoneBook />,
           heading: "Language:",
-          text: "Español, Ingles intermedio",
+          text: "Spanish and Middle Inglish",
         }
       ]);
     return (
@@ -49,8 +49,7 @@ export const About = () => {
               <h3 className="heading">ABOUT</h3>
               <h1 className="mainHeader">More Information</h1>
               <p className="mainContent">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Perspiciatis nihil sequi facere ab dolorem odit.
+                Basic information about me
               </p>
               <div className="commonBorder"></div>
             </div>
@@ -68,6 +67,7 @@ export const About = () => {
             </div>
           </div>
         </div>
+        <a name="Skill"></a>
       </div>
     );
 }

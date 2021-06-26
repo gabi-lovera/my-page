@@ -3,7 +3,9 @@ import {FaFacebookF,FaGithub,FaLinkedin,FaTwitter} from "react-icons/fa"
 export const Banner = () => {
     
   return (
+    
       <header className="header">
+        <a name="Home"></a>
         <div className="container">
           <div className="row">
             <div className="col-6">
@@ -44,6 +46,7 @@ export const Banner = () => {
             </div>
           </div>
         </div>
+        <a name="About"></a>
       </header>
     );
 

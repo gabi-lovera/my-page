@@ -5,15 +5,17 @@ export const Contact = () => {
         {}
     )
     return (
+      
       <div className="contact">
+         
         <div className="container">
           <div className="main__header">
             <div className="common">
+           
               <h3 className="heading">CONTACT</h3>
               <h1 className="mainHeader">My contact</h1>
               <p className="mainContent">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Perspiciatis nihil sequi facere ab dolorem odit.
+              Send me an email if you want to contact me
               </p>
               <div className="commonBorder"></div>
             </div>

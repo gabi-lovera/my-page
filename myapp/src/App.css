@@ -274,3 +274,8 @@ width: 50%;
     padding-top: 15px;
     color: #ff4a57;
   }
+
+  a{
+    text-decoration: none;
+    color: #fff;
+  }

@@ -12,22 +12,22 @@ export const Nav = () => {
             </ul>
             <ul className="navbar__right">
               <li>
-                <a href="">Home</a>
+                <a href="#Home">Home</a>
               </li>
               <li>
-                <a href="">About</a>
+                <a href="#About">About</a>
               </li>
               <li>
-                <a href="">Skill</a>
+                <a href="#Skill">Skill</a>
               </li>
               <li>
-                <a href="">Portfolio</a>
+                <a href="#Home">Portfolio</a>
               </li>
               <li>
-                <a href="">Blog</a>
+                <a href="#Home">Blog</a>
               </li>
               <li>
-                <a href="">Contact</a>
+                <a href="#Contact">Contact</a>
               </li>
             </ul>
           </div>
