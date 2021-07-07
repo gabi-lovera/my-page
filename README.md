@@ -1,2 +1,2 @@
-# react
-Page: https://myportfoliogabi.netlify.app/
+## Casual portfolio
+>Page: https://myportfoliogabi.netlify.app/
